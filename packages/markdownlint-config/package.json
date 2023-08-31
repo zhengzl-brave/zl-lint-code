@@ -1,0 +1,23 @@
+{
+  "name": "zl-markdownlint-config",
+  "version": "0.0.0",
+  "description": "文档规范",
+  "main": "index.json",
+  "author": "zhengzl",
+  "keywords": [
+    "markdownlint",
+    "markdown"
+  ],
+  "homepage": "https://github.com/zhengzl-brave/zl-lint-code/#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengzl-brave/zl-lint-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhengzl-brave/zl-lint-code/issues"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
+  }
+}
