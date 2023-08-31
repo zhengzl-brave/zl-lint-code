@@ -55,7 +55,11 @@ importers:
         specifier: ^1.1.7
         version: registry.npmmirror.com/vuepress-plugin-zooming@1.1.8
 
-  packages/commitlint-config: {}
+  packages/commitlint-config:
+    dependencies:
+      conventional-changelog-conventionalcommits:
+        specifier: ^4.5.0
+        version: registry.npmmirror.com/conventional-changelog-conventionalcommits@4.6.3
 
   packages/markdownlint-config:
     dependencies:
