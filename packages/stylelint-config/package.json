@@ -1,0 +1,32 @@
+{
+  "name": "zl-stylelint-config",
+  "version": "0.0.0",
+  "description": "CSS规范",
+  "main": "index.js",
+  "author": "zhengzl",
+  "keywords": [
+    "stylelint",
+    "zl-stylelint-config"
+  ],
+  "homepage": "https://github.com/zhengzl-brave/zl-lint-code#readme",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengzl-brave/zl-lint-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhengzl-brave/zl-lint-code/issues"
+  }
+}
