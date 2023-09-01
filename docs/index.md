@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: zl-lint-code2023
+heroText: zl-lint-code-2023
 tagline: 前端编码规范工程化
 actionText: 立刻进入 →
 actionLink: /coding/html.md
