@@ -31,6 +31,15 @@ export default defineConfig4CustomTheme({
           { text: "CHANGELOG 规范", link: "/engineering/changelog.md" },
         ],
       },
+      {
+        text: "NPM包",
+        items: [
+          { text: "zl-eslint-config", link: "/npm/eslint.md" },
+          { text: "zl-stylelint-config", link: "/npm/stylelint.md" },
+          { text: "zl-commitlint-config", link: "/npm/commitlint.md" },
+          { text: "zl-markdownlint-config", link: "/npm/markdownlint.md" },
+        ],
+      },
     ],
     sidebar: [
       {
@@ -73,6 +82,15 @@ export default defineConfig4CustomTheme({
             title: "CHANGELOG 规范",
             path: "/engineering/changelog.md",
           },
+        ],
+      },
+      {
+        title: "NPM包",
+        children: [
+          { title: "zl-eslint-config", path: "/npm/eslint.md" },
+          { title: "zl-stylelint-config", path: "/npm/stylelint.md" },
+          { title: "zl-commitlint-config", path: "/npm/commitlint.md" },
+          { title: "zl-markdownlint-config", path: "/npm/markdownlint.md" },
         ],
       },
     ],
