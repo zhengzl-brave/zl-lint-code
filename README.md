@@ -1,4 +1,4 @@
-# zzl-lint-code
+# zl-lint-code
 
 zl-lint-code 前端编码规范工程化
 

@@ -1,5 +1,3 @@
 module.exports = {
-  extends: [
-    './index',
-  ].map(require.resolve),
+  extends: ['./index'].map(require.resolve),
 };
