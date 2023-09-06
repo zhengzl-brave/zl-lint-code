@@ -1,6 +1,6 @@
 {
   "name": "zl-markdownlint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "文档规范",
   "main": "index.json",
   "author": "zhengzl",
