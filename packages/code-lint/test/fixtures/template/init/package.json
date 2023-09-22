@@ -1,0 +1,11 @@
+{
+  "name": "zl-lint-init-test",
+  "version": "1.0.0",
+  "description": "zl-lint init test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
