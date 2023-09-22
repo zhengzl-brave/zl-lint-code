@@ -1,6 +1,6 @@
 {
   "name": "zl-commitlint-config",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Git规范",
   "main": "index.js",
   "author": "zhengzl",

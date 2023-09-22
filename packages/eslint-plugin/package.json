@@ -1,6 +1,6 @@
 {
   "name": "zl-eslint-plugin",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "自定义eslint插件",
   "author": "zhengzl",
   "homepage": "https://github.com/zhengzl-brave/zl-lint-code#readme",
