@@ -80,10 +80,10 @@
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0",
-    "zl-commitlint-config": "workspace:^",
-    "zl-eslint-config": "workspace:^",
-    "zl-markdownlint-config": "workspace:^",
-    "zl-stylelint-config": "workspace:^"
+    "zl-commitlint-config": "^1.0.1",
+    "zl-eslint-config": "^1.0.1",
+    "zl-markdownlint-config": "^1.0.1",
+    "zl-stylelint-config": "^1.0.1"
   },
   "author": "zhengzl",
   "homepage": "https://github.com/zhengzl-brave/zl-lint-code/#readme",
@@ -94,5 +94,6 @@
   },
   "bugs": {
     "url": "https://github.com/zhengzl-brave/zl-lint-code/issues"
-  }
+  },
+  "gitHead": "df5c1c811c59624b116f767a23ea75daf59f39d7"
 }
