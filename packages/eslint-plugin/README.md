@@ -1,5 +1,7 @@
 # `zl-eslint-plugin`
 
+eslint 扩展插件
+
 ## 安装
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
@@ -15,9 +17,9 @@ $ npm install zl-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ["zl-eslint-config"],
+  plugin: ['zl-eslint-config'],
   rules: {
-    "zl-eslint-plugin/no-secret-info": "error",
+    'zl-eslint-plugin/no-secret-info': 'error',
   },
 };
 ```
@@ -27,7 +29,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: "plugin:zl-eslint-plugin/recommended",
+  extends: 'plugin:zl-eslint-plugin/recommended',
 };
 ```
 

@@ -1,6 +1,6 @@
 # `zl-stylelint-config`
 
-支持配套的 [stylelint 可共享配置](https://stylelint.io/user-guide/configure)。
+支持配套的 [stylelint 样式规范 可共享配置](https://stylelint.io/user-guide/configure)。
 
 ## 安装
 

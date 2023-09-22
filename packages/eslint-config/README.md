@@ -1,6 +1,6 @@
 # `zl-eslint-config`
 
-> zl-lint-code JavaScript TypeScript Node 规范
+> zl-lint-code JavaScript TypeScript Node eslint 规范
 
 提供了多套配置文件以支持 `JavaScript`、`TypeScript`、`React`、`Vue`、`Node.js` 等多种项目类型。
 

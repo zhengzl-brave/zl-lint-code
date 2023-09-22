@@ -1,6 +1,6 @@
 # `zl-markdownlint-config`
 
->Lint-Code 文档 规范
+> Lint-Code markdown 文档 规范
 
 支持配套的 [markdownlint 可共享配置](https://www.npmjs.com/package/markdownlint#optionsconfig)。
 
@@ -18,6 +18,6 @@ npm install zl-markdownlint-config markdownlint --save-dev
 
 ```json
 {
-	"extends": "zl-markdownlint-config"
+  "extends": "zl-markdownlint-config"
 }
 ```
