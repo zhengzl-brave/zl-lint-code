@@ -1,6 +1,6 @@
 {
   "name": "zl-code-lint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "zl-lint-code 前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
