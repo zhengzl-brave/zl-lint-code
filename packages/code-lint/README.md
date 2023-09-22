@@ -1,13 +1,13 @@
 # zl-code-lint
 
-`zl-code-lint` 是[ZL-LINT-CODE 前端编码规范工程化](https://github.com/zhengzl-brave/zl-lint-code/)的配套 Lint 工具，可以为项目一键接入规范、一键扫描和修复规范问题，保障项目的编码规范和代码质量。
+`zl-code-lint` 是[前端编码规范工程化](https://github.com/zhengzl-brave/zl-lint-code/)的配套 Lint 工具，可以为项目一键接入规范、一键扫描和修复规范问题，保障项目的编码规范和代码质量。
 
 ## 背景
 
 我们引入了多个业界流行的 Linter 作为《阿里巴巴前端规范》的配套，并根据规范内容定制了规则包，它们包括：
 
-| 规范                                                              | Lint 工具                                                  | npm 包                                                                                       |
-| ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| 规范                                                              | Lint 工具                                                  | npm 包                                                                         |
+| ----------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                              | [zl-eslint-config](https://www.npmjs.com/package/zl-eslint-config)             |
 | CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                         | [zl-stylelint-config](https://www.npmjs.com/package/zl-stylelint-config)       |
 | Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                 | [zl-commitlint-config](https://www.npmjs.com/package/zl-commitlint-config)     |
@@ -123,15 +123,15 @@ npm install zl-code-lint --save
 
 config 参数如下：
 
-| 参数               | 类型       | 默认值 | 说明                                                                                                                |
-| ------------------ | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------- |
-| cwd                | string     | -      | 项目绝对路径                                                                                                        |
+| 参数               | 类型       | 默认值 | 说明                                                                                                              |
+| ------------------ | ---------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
+| cwd                | string     | -      | 项目绝对路径                                                                                                      |
 | eslintType         | ESLintType | -      | 语言和框架类型，如果不配置，等同于 zl-code-lint init，控制台会出现选择器，如果配置，控制台就不会出现选择器        |
-| enableESLint       | boolean    | true   | 是否启用 ESLint，如果不配置默认值为 true，即默认启用 ESLint                                                         |
+| enableESLint       | boolean    | true   | 是否启用 ESLint，如果不配置默认值为 true，即默认启用 ESLint                                                       |
 | enableStylelint    | boolean    | -      | 是否启用 stylelint，如果不配置，等同于 zl-code-lint init，控制台会出现选择器，如果配置，控制台就不会出现选择器    |
 | enableMarkdownlint | boolean    | -      | 是否启用 markdownlint，如果不配置，等同于 zl-code-lint init，控制台会出现选择器，如果配置，控制台就不会出现选择器 |
-| enablePrettier     | boolean    | -      | 是否启用 Prettier                                                                                                   |
-| disableNpmInstall  | boolean    | false  | 是否禁用自动在初始化完成后安装依赖                                                                                  |
+| enablePrettier     | boolean    | -      | 是否启用 Prettier                                                                                                 |
+| disableNpmInstall  | boolean    | false  | 是否禁用自动在初始化完成后安装依赖                                                                                |
 
 ##### ESLintType
 
